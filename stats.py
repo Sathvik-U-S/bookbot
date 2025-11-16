@@ -1,11 +1,7 @@
 def get_num_words(n):
     with open(n,'r') as f:
         n=f.read().split()
-        i=0
-        for _ in n:
-            i=i+1
-        
-    return i
+    return len(n)
 
 def r_dict(n):
     with open(n,'r') as f:
